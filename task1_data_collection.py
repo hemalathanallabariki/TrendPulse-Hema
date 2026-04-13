@@ -34,16 +34,16 @@ def fetch_top_story_ids():
 
 def fetch_story(story_id):
     try:
-        url = f"{BASE_URL}/item/{story_id}.json"
-        response = requests.get(url, headers=HEADERS, timeout=5)
+        url=f"{BASE_URL}/item/{story_id}.json"
+        response=requests.get(url, headers=HEADERS, timeout=5)
         
         
         #skip invalid responses
-        if response.status_code != 200:
+        if response.status_code!=200:
             print(f"HTTP error for {story_id}")
             return None
 
-        data = response.json()
+        data=response.json()
         
         #deleted/unavailable story
         if data is None:
@@ -86,19 +86,19 @@ def main():
     collected_data=[]
     category_counts={cat: 0 for cat in CATEGORIES}
 
-    for idx, story_id in enumerate(story_ids):
+    for idx,story_id in enumerate(story_ids):
         story=fetch_with_retry(story_id)
         if not story:
             continue
 
-        title = story.get("title", "")
-        category = classify_story(title)
+        title=story.get("title", "")
+        category=classify_story(title)
 
         #Limit only main categories
-        if category!="other" and category_counts[category]>= MAX_PER_CATEGORY:
+        if category!="other" and category_counts[category]>=MAX_PER_CATEGORY:
             continue
 
-        data = {
+        data={
             "post_id":story.get("id"),
             "title":title,
             "category":category,
@@ -117,17 +117,15 @@ def main():
         if len(collected_data)>=TARGET_TOTAL:
             break
 
-        # Sleep
-        if (idx + 1) % 25==0:
+        #Sleep
+        if(idx + 1)%25==0:
             print("Sleeping for 2 seconds...")
             time.sleep(2)
 
     #save output
-    os.makedirs("data", exist_ok=True)
-
+    os.makedirs("data",exist_ok=True)
     filename=f"data/trends_{datetime.now().strftime('%Y%m%d')}.json"
-
-    with open(filename, "w", encoding="utf-8") as f:
+    with open(filename,"w", encoding="utf-8") as f:
         json.dump(collected_data, f, indent=4)
 
     print(f"\nCollected {len(collected_data)} stories. Saved to {filename}")
