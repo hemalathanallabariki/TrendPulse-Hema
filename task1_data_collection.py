@@ -8,9 +8,12 @@ from datetime import datetime
 BASE_URL="https://hacker-news.firebaseio.com/v0"
 HEADERS={"User-Agent": "TrendPulse/1.0"}
 
+#number of top story IDs to pull
 TOTAL_IDS_TO_FETCH=500
+#max items per category
 MAX_PER_CATEGORY=25
 
+#keyword-based categories
 CATEGORIES={
     "technology":["ai", "software", "tech", "code", "computer", "data", "cloud", "api", "gpu", "llm"],
     "worldnews":["war", "government", "country", "president", "election", "climate", "attack", "global"],
@@ -26,6 +29,7 @@ def fetch_top_story_ids():
         url=f"{BASE_URL}/topstories.json"
         res=requests.get(url, headers=HEADERS)
         res.raise_for_status()
+        #Limit results
         return res.json()[:TOTAL_IDS_TO_FETCH]
     except Exception as e:
         print("Error fetching top stories:", e)
@@ -80,10 +84,12 @@ def fetch_with_retry(story_id, retries=3):
 #=============== MAIN LOGIC ===============
 
 def main():
+    #Total stories to collect
     TARGET_TOTAL=125
     story_ids=fetch_top_story_ids()
 
     collected_data=[]
+    #Track per-category count
     category_counts={cat: 0 for cat in CATEGORIES}
 
     for idx,story_id in enumerate(story_ids):
@@ -97,7 +103,7 @@ def main():
         #Limit only main categories
         if category!="other" and category_counts[category]>=MAX_PER_CATEGORY:
             continue
-
+        #structure data for storage
         data={
             "post_id":story.get("id"),
             "title":title,
@@ -109,7 +115,7 @@ def main():
         }
 
         collected_data.append(data)
-
+        #update category count
         if category in category_counts:
             category_counts[category]+=1
 
@@ -117,12 +123,12 @@ def main():
         if len(collected_data)>=TARGET_TOTAL:
             break
 
-        #Sleep
+        #Pause periodically to avoid API rate issue
         if(idx + 1)%25==0:
             print("Sleeping for 2 seconds...")
             time.sleep(2)
 
-    #save output
+    #Save results to JSON file
     os.makedirs("data",exist_ok=True)
     filename=f"data/trends_{datetime.now().strftime('%Y%m%d')}.json"
     with open(filename,"w", encoding="utf-8") as f:
