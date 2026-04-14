@@ -132,10 +132,10 @@ def main():
                 "author":"unknown",
                 "collected_at":datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
-
+            
             categorized_data[category].append(dummy)
             collected_data.append(dummy)
-
+        time.sleep(2)
     #saving file
     os.makedirs("data",exist_ok=True)
 
