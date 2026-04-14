@@ -35,6 +35,7 @@ def get_top_ids():
         return []
 
 
+
 #get details of one story
 def get_story_data(sid):
     try:
@@ -97,13 +98,13 @@ def run_pipeline():
     #storing data category-wise
     categorized={k:[] for k in CATEGORY_MAP}
     all_data=[]
-
+    idx=0
     #processing one category at a time
     for cat in CATEGORY_MAP.keys():
         print(f"\nProcessing category:{cat}")
 
         count=0
-        idx=0
+        
 
         #going through story ids until we fill this category
         while idx<len(ids) and count<LIMIT_PER_CAT:
