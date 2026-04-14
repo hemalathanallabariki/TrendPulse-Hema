@@ -1,345 +1,993 @@
 [
     {
-        "post_id": 47762864,
-        "title": "Backblaze has stopped backing up your data",
+        "post_id": 47766370,
+        "title": "Show HN: LangAlpha \u2013 what if Claude Code was built for Wall Street?",
         "category": "technology",
-        "score": 352,
-        "num_comments": 220,
-        "author": "rrreese",
-        "collected_at": "2026-04-14 18:40:14"
+        "score": 20,
+        "num_comments": 5,
+        "author": "zc2610",
+        "collected_at": "2026-04-14T22:34:27.058323"
     },
     {
-        "post_id": 47724408,
-        "title": "The Great Majority: Body Snatching and Burial Reform in 19th-Century Britain",
+        "post_id": 47765374,
+        "title": "Show HN: Kontext CLI \u2013 Credential broker for AI coding agents in Go",
         "category": "technology",
-        "score": 8,
-        "num_comments": 1,
-        "author": "apollinaire",
-        "collected_at": "2026-04-14 18:40:28"
+        "score": 32,
+        "num_comments": 9,
+        "author": "mc-serious",
+        "collected_at": "2026-04-14T22:34:28.103055"
+    },
+    {
+        "post_id": 47767606,
+        "title": "Show HN: Kelet \u2013 Root Cause Analysis agent for your LLM apps",
+        "category": "technology",
+        "score": 10,
+        "num_comments": 2,
+        "author": "almogbaku",
+        "collected_at": "2026-04-14T22:34:34.941419"
     },
     {
         "post_id": 47761625,
         "title": "Multi-Agentic Software Development Is a Distributed Systems Problem",
         "category": "technology",
-        "score": 59,
-        "num_comments": 22,
+        "score": 90,
+        "num_comments": 42,
         "author": "tie-in",
-        "collected_at": "2026-04-14 18:40:30"
+        "collected_at": "2026-04-14T22:34:43.658898"
     },
     {
         "post_id": 47761723,
         "title": "MOS tech 6502 8-bit microprocessor in pure SQL powered by Postgres",
         "category": "technology",
-        "score": 44,
-        "num_comments": 4,
+        "score": 63,
+        "num_comments": 8,
         "author": "adunk",
-        "collected_at": "2026-04-14 18:40:31"
-    },
-    {
-        "post_id": 47708457,
-        "title": "Rust Threads on the GPU",
-        "category": "technology",
-        "score": 92,
-        "num_comments": 28,
-        "author": "PaulHoule",
-        "collected_at": "2026-04-14 18:40:38"
-    },
-    {
-        "post_id": 47764164,
-        "title": "The Case Against Gameplay Loops",
-        "category": "technology",
-        "score": 4,
-        "num_comments": 1,
-        "author": "coinfused",
-        "collected_at": "2026-04-14 18:40:39"
+        "collected_at": "2026-04-14T22:34:51.343271"
     },
     {
         "post_id": 47728970,
         "title": "Write less code, be more responsible",
         "category": "technology",
-        "score": 120,
-        "num_comments": 67,
+        "score": 150,
+        "num_comments": 97,
         "author": "orhunp_",
-        "collected_at": "2026-04-14 18:40:42"
+        "collected_at": "2026-04-14T22:34:52.242477"
     },
     {
-        "post_id": 47758347,
-        "title": "N-Day-Bench \u2013 Can LLMs find real vulnerabilities in real codebases?",
+        "post_id": 47708457,
+        "title": "Rust Threads on the GPU",
         "category": "technology",
-        "score": 80,
-        "num_comments": 26,
-        "author": "mufeedvh",
-        "collected_at": "2026-04-14 18:40:44"
+        "score": 105,
+        "num_comments": 33,
+        "author": "PaulHoule",
+        "collected_at": "2026-04-14T22:35:03.309511"
     },
     {
-        "post_id": 47753689,
-        "title": "Building a CLI for all of Cloudflare",
+        "post_id": 47767593,
+        "title": "Stolen Rockstar Games analytics data leaked by extortion gang",
         "category": "technology",
-        "score": 315,
-        "num_comments": 102,
-        "author": "soheilpro",
-        "collected_at": "2026-04-14 18:40:49"
-    },
-    {
-        "post_id": 47729046,
-        "title": "Air Powered Segment Display? [video]",
-        "category": "technology",
-        "score": 117,
-        "num_comments": 11,
-        "author": "ProfDreamer",
-        "collected_at": "2026-04-14 18:40:50"
+        "score": 5,
+        "num_comments": 1,
+        "author": "Brajeshwar",
+        "collected_at": "2026-04-14T22:35:11.906852"
     },
     {
         "post_id": 47756772,
         "title": "GAIA \u2013 Open-source framework for building AI agents that run on local hardware",
         "category": "technology",
-        "score": 132,
-        "num_comments": 32,
+        "score": 140,
+        "num_comments": 33,
         "author": "galaxyLogic",
-        "collected_at": "2026-04-14 18:40:57"
-    },
-    {
-        "post_id": 47755209,
-        "title": "B-trees and database indexes (2024)",
-        "category": "technology",
-        "score": 108,
-        "num_comments": 40,
-        "author": "tosh",
-        "collected_at": "2026-04-14 18:41:04"
-    },
-    {
-        "post_id": 47750872,
-        "title": "Servo is now available on crates.io",
-        "category": "technology",
-        "score": 456,
-        "num_comments": 147,
-        "author": "ffin",
-        "collected_at": "2026-04-14 18:41:05"
-    },
-    {
-        "post_id": 47752466,
-        "title": "MEMS Array Chip Can Project Video the Size of a Grain of Sand",
-        "category": "technology",
-        "score": 86,
-        "num_comments": 41,
-        "author": "bookofjoe",
-        "collected_at": "2026-04-14 18:41:11"
-    },
-    {
-        "post_id": 47751621,
-        "title": "Initial mainline video capture and camera support for Rockchip RK3588",
-        "category": "technology",
-        "score": 86,
-        "num_comments": 24,
-        "author": "mfilion",
-        "collected_at": "2026-04-14 18:41:12"
-    },
-    {
-        "post_id": 47761371,
-        "title": "Bear Roll \u2013 Daily roll of Bear Blog's top posts",
-        "category": "technology",
-        "score": 7,
-        "num_comments": 0,
-        "author": "freediver",
-        "collected_at": "2026-04-14 18:41:20"
+        "collected_at": "2026-04-14T22:35:14.679924"
     },
     {
         "post_id": 47759292,
         "title": "The AI revolution in math has arrived",
         "category": "technology",
-        "score": 89,
-        "num_comments": 48,
+        "score": 99,
+        "num_comments": 50,
         "author": "sonabinu",
-        "collected_at": "2026-04-14 18:41:22"
-    },
-    {
-        "post_id": 47744255,
-        "title": "I ran Gemma 4 as a local model in Codex CLI",
-        "category": "technology",
-        "score": 264,
-        "num_comments": 108,
-        "author": "dvaughan",
-        "collected_at": "2026-04-14 18:41:25"
+        "collected_at": "2026-04-14T22:35:30.441353"
     },
     {
         "post_id": 47733217,
         "title": "Exploiting the most prominent AI agent benchmarks",
         "category": "technology",
-        "score": 579,
+        "score": 581,
         "num_comments": 140,
         "author": "Anon84",
-        "collected_at": "2026-04-14 18:41:29"
-    },
-    {
-        "post_id": 47750821,
-        "title": "Michigan 'digital age' bills pulled after privacy concerns raised",
-        "category": "technology",
-        "score": 217,
-        "num_comments": 125,
-        "author": "iamnothere",
-        "collected_at": "2026-04-14 18:41:38"
-    },
-    {
-        "post_id": 47761892,
-        "title": "Show HN: Pushduck \u2013 S3 uploads that run on Cloudflare Workers, no AWS SDK",
-        "category": "technology",
-        "score": 7,
-        "num_comments": 3,
-        "author": "abhay_ramesh",
-        "collected_at": "2026-04-14 18:41:40"
+        "collected_at": "2026-04-14T22:35:42.439656"
     },
     {
         "post_id": 47754179,
         "title": "Claude Code may be burning your limits with invisible tokens",
         "category": "technology",
-        "score": 44,
+        "score": 46,
         "num_comments": 6,
         "author": "jenic_",
-        "collected_at": "2026-04-14 18:41:41"
+        "collected_at": "2026-04-14T22:35:55.940714"
     },
     {
         "post_id": 47748064,
         "title": "The economics of software teams: Why most engineering orgs are flying blind",
         "category": "technology",
-        "score": 402,
-        "num_comments": 277,
+        "score": 405,
+        "num_comments": 279,
         "author": "kiyanwang",
-        "collected_at": "2026-04-14 18:41:44"
-    },
-    {
-        "post_id": 47764128,
-        "title": "Mastodon gets Sovereign Tech Agency funding",
-        "category": "technology",
-        "score": 7,
-        "num_comments": 1,
-        "author": "edent",
-        "collected_at": "2026-04-14 18:41:48"
+        "collected_at": "2026-04-14T22:36:01.160608"
     },
     {
         "post_id": 47761720,
         "title": "Microsoft exec suggests AI agents will need to buy licenses, just like employees",
         "category": "technology",
-        "score": 19,
-        "num_comments": 7,
+        "score": 29,
+        "num_comments": 11,
         "author": "maxloh",
-        "collected_at": "2026-04-14 18:41:50"
+        "collected_at": "2026-04-14T22:36:20.917151"
+    },
+    {
+        "post_id": 47766164,
+        "title": "90% of CEOs Say AI Changed Nothing. The Other 10% Have a PR Team",
+        "category": "technology",
+        "score": 34,
+        "num_comments": 26,
+        "author": "mooreds",
+        "collected_at": "2026-04-14T22:36:38.640420"
+    },
+    {
+        "post_id": 47747017,
+        "title": "Apple's accidental moat: How the \"AI Loser\" may end up winning",
+        "category": "technology",
+        "score": 421,
+        "num_comments": 373,
+        "author": "walterbell",
+        "collected_at": "2026-04-14T22:36:41.611730"
+    },
+    {
+        "post_id": 47738864,
+        "title": "Why AI Sucks at Front End",
+        "category": "technology",
+        "score": 121,
+        "num_comments": 166,
+        "author": "tobr",
+        "collected_at": "2026-04-14T22:36:52.259185"
+    },
+    {
+        "post_id": 47754559,
+        "title": "Show HN: Mcptube \u2013 Karpathy's LLM Wiki idea applied to YouTube videos",
+        "category": "technology",
+        "score": 12,
+        "num_comments": 2,
+        "author": "0xchamin",
+        "collected_at": "2026-04-14T22:37:03.592649"
+    },
+    {
+        "post_id": 47736555,
+        "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+        "category": "technology",
+        "score": 949,
+        "num_comments": 502,
+        "author": "tradertef",
+        "collected_at": "2026-04-14T22:37:15.083816"
+    },
+    {
+        "post_id": 47750259,
+        "title": "Point Cloud Allemansr\u00e4tten",
+        "category": "technology",
+        "score": 37,
+        "num_comments": 6,
+        "author": "ColinWright",
+        "collected_at": "2026-04-14T22:37:22.576650"
+    },
+    {
+        "post_id": 47741531,
+        "title": "Bouncer: Block \"crypto\", \"rage politics\", and more from your X feed using AI",
+        "category": "technology",
+        "score": 53,
+        "num_comments": 113,
+        "author": "steveharing1",
+        "collected_at": "2026-04-14T22:37:24.408440"
+    },
+    {
+        "post_id": 47729634,
+        "title": "Now is the best time to write code by hand",
+        "category": "technology",
+        "score": 121,
+        "num_comments": 55,
+        "author": "nickgreg",
+        "collected_at": "2026-04-14T22:37:31.454780"
+    },
+    {
+        "post_id": 47687273,
+        "title": "Git commands I run before reading any code",
+        "category": "technology",
+        "score": 2327,
+        "num_comments": 506,
+        "author": "grepsedawk",
+        "collected_at": "2026-04-14T22:37:34.556830"
+    },
+    {
+        "post_id": 47741889,
+        "title": "Show HN: Claudraband \u2013 Claude Code for the Power User",
+        "category": "technology",
+        "score": 118,
+        "num_comments": 44,
+        "author": "halfwhey",
+        "collected_at": "2026-04-14T22:37:36.500531"
+    },
+    {
+        "post_id": 47758880,
+        "title": "When AI Trading Works, You Won't Hear About It",
+        "category": "technology",
+        "score": 31,
+        "num_comments": 4,
+        "author": "izyda",
+        "collected_at": "2026-04-14T22:37:43.515444"
+    },
+    {
+        "post_id": 47766430,
+        "title": "War as a Pretext: Gulf States Are Tightening the Screws on Speech\u2013Again",
+        "category": "worldnews",
+        "score": 15,
+        "num_comments": 0,
+        "author": "hn_acker",
+        "collected_at": "2026-04-14T22:38:48.488799"
+    },
+    {
+        "post_id": 47764975,
+        "title": "Man suspected of Molotov attack Sam Altmans home charged with attempted murder",
+        "category": "worldnews",
+        "score": 13,
+        "num_comments": 1,
+        "author": "Bender",
+        "collected_at": "2026-04-14T22:39:31.593544"
+    },
+    {
+        "post_id": 47763185,
+        "title": "An open letter to the UK Government on digital privacy",
+        "category": "worldnews",
+        "score": 15,
+        "num_comments": 4,
+        "author": "vsajip",
+        "collected_at": "2026-04-14T22:40:37.146528"
+    },
+    {
+        "post_id": 47722333,
+        "title": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
+        "category": "worldnews",
+        "score": 438,
+        "num_comments": 277,
+        "author": "neversaydie",
+        "collected_at": "2026-04-14T22:41:51.467837"
+    },
+    {
+        "post_id": 47745230,
+        "title": "Sam Altman's home targeted in second attack",
+        "category": "worldnews",
+        "score": 152,
+        "num_comments": 362,
+        "author": "babelfish",
+        "collected_at": "2026-04-14T22:44:56.504804"
+    },
+    {
+        "post_id": 47757668,
+        "title": "Ukraine Tested Space-Launch Capabilities in Middle of War Twice",
+        "category": "worldnews",
+        "score": 23,
+        "num_comments": 0,
+        "author": "Teever",
+        "collected_at": "2026-04-14T22:45:25.889737"
+    },
+    {
+        "post_id": 47729994,
+        "title": "Polymarket gamblers betting millions on war",
+        "category": "worldnews",
+        "score": 159,
+        "num_comments": 129,
+        "author": "sandebert",
+        "collected_at": "2026-04-14T22:46:10.231998"
+    },
+    {
+        "post_id": 47693960,
+        "title": "Flashback to a time when government reports were works of art",
+        "category": "worldnews",
+        "score": 30,
+        "num_comments": 12,
+        "author": "NaOH",
+        "collected_at": "2026-04-14T22:46:18.778541"
+    },
+    {
+        "post_id": "dummy_worldnews_8",
+        "title": "Dummy worldnews story 8",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524859"
+    },
+    {
+        "post_id": "dummy_worldnews_9",
+        "title": "Dummy worldnews story 9",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524875"
+    },
+    {
+        "post_id": "dummy_worldnews_10",
+        "title": "Dummy worldnews story 10",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524881"
+    },
+    {
+        "post_id": "dummy_worldnews_11",
+        "title": "Dummy worldnews story 11",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524884"
+    },
+    {
+        "post_id": "dummy_worldnews_12",
+        "title": "Dummy worldnews story 12",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524887"
+    },
+    {
+        "post_id": "dummy_worldnews_13",
+        "title": "Dummy worldnews story 13",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524891"
+    },
+    {
+        "post_id": "dummy_worldnews_14",
+        "title": "Dummy worldnews story 14",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524893"
+    },
+    {
+        "post_id": "dummy_worldnews_15",
+        "title": "Dummy worldnews story 15",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524896"
+    },
+    {
+        "post_id": "dummy_worldnews_16",
+        "title": "Dummy worldnews story 16",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524899"
+    },
+    {
+        "post_id": "dummy_worldnews_17",
+        "title": "Dummy worldnews story 17",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524903"
+    },
+    {
+        "post_id": "dummy_worldnews_18",
+        "title": "Dummy worldnews story 18",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524943"
+    },
+    {
+        "post_id": "dummy_worldnews_19",
+        "title": "Dummy worldnews story 19",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524946"
+    },
+    {
+        "post_id": "dummy_worldnews_20",
+        "title": "Dummy worldnews story 20",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524948"
+    },
+    {
+        "post_id": "dummy_worldnews_21",
+        "title": "Dummy worldnews story 21",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524950"
+    },
+    {
+        "post_id": "dummy_worldnews_22",
+        "title": "Dummy worldnews story 22",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524952"
+    },
+    {
+        "post_id": "dummy_worldnews_23",
+        "title": "Dummy worldnews story 23",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524953"
+    },
+    {
+        "post_id": "dummy_worldnews_24",
+        "title": "Dummy worldnews story 24",
+        "category": "worldnews",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:47:17.524955"
+    },
+    {
+        "post_id": 47698455,
+        "title": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
+        "category": "sports",
+        "score": 625,
+        "num_comments": 152,
+        "author": "iceberger2001",
+        "collected_at": "2026-04-14T22:50:09.822383"
+    },
+    {
+        "post_id": 47713495,
+        "title": "Team from ETH Zurich make high quality quantum swap gate using a geometric phase",
+        "category": "sports",
+        "score": 237,
+        "num_comments": 56,
+        "author": "joko42",
+        "collected_at": "2026-04-14T22:50:33.411520"
+    },
+    {
+        "post_id": 47698111,
+        "title": "Bevy game development tutorials and in-depth resources",
+        "category": "sports",
+        "score": 139,
+        "num_comments": 72,
+        "author": "GenericCanadian",
+        "collected_at": "2026-04-14T22:50:36.421195"
+    },
+    {
+        "post_id": 47749295,
+        "title": "Show HN: Equirect \u2013 a Rust VR video player",
+        "category": "sports",
+        "score": 13,
+        "num_comments": 1,
+        "author": "greggman65",
+        "collected_at": "2026-04-14T22:51:06.366342"
+    },
+    {
+        "post_id": 47747248,
+        "title": "Haunt, the 70s text adventure game, is now playable on a website",
+        "category": "sports",
+        "score": 82,
+        "num_comments": 26,
+        "author": "jscalo",
+        "collected_at": "2026-04-14T22:51:30.398363"
+    },
+    {
+        "post_id": 47709251,
+        "title": "Netflix Prices Went Up Again \u2013 I Bought a DVD Player Instead",
+        "category": "sports",
+        "score": 262,
+        "num_comments": 278,
+        "author": "speckx",
+        "collected_at": "2026-04-14T22:54:17.852881"
+    },
+    {
+        "post_id": 47704430,
+        "title": "Can It Resolve Doom? Game Engine in 2k DNS Records",
+        "category": "sports",
+        "score": 10,
+        "num_comments": 2,
+        "author": "choult",
+        "collected_at": "2026-04-14T22:56:37.832421"
+    },
+    {
+        "post_id": 47729925,
+        "title": "Show HN: I rebuilt a 2000s browser strategy game on Cloudflare's edge",
+        "category": "sports",
+        "score": 8,
+        "num_comments": 1,
+        "author": "parzivalt",
+        "collected_at": "2026-04-14T22:57:25.756862"
+    },
+    {
+        "post_id": "dummy_sports_8",
+        "title": "Dummy sports story 8",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726161"
+    },
+    {
+        "post_id": "dummy_sports_9",
+        "title": "Dummy sports story 9",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726180"
+    },
+    {
+        "post_id": "dummy_sports_10",
+        "title": "Dummy sports story 10",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726185"
+    },
+    {
+        "post_id": "dummy_sports_11",
+        "title": "Dummy sports story 11",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726188"
+    },
+    {
+        "post_id": "dummy_sports_12",
+        "title": "Dummy sports story 12",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726191"
+    },
+    {
+        "post_id": "dummy_sports_13",
+        "title": "Dummy sports story 13",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726195"
+    },
+    {
+        "post_id": "dummy_sports_14",
+        "title": "Dummy sports story 14",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726199"
+    },
+    {
+        "post_id": "dummy_sports_15",
+        "title": "Dummy sports story 15",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726202"
+    },
+    {
+        "post_id": "dummy_sports_16",
+        "title": "Dummy sports story 16",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726205"
+    },
+    {
+        "post_id": "dummy_sports_17",
+        "title": "Dummy sports story 17",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726210"
+    },
+    {
+        "post_id": "dummy_sports_18",
+        "title": "Dummy sports story 18",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726213"
+    },
+    {
+        "post_id": "dummy_sports_19",
+        "title": "Dummy sports story 19",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726217"
+    },
+    {
+        "post_id": "dummy_sports_20",
+        "title": "Dummy sports story 20",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726220"
+    },
+    {
+        "post_id": "dummy_sports_21",
+        "title": "Dummy sports story 21",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726223"
+    },
+    {
+        "post_id": "dummy_sports_22",
+        "title": "Dummy sports story 22",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726226"
+    },
+    {
+        "post_id": "dummy_sports_23",
+        "title": "Dummy sports story 23",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726229"
+    },
+    {
+        "post_id": "dummy_sports_24",
+        "title": "Dummy sports story 24",
+        "category": "sports",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T22:57:28.726231"
+    },
+    {
+        "post_id": 47758870,
+        "title": "Let's Talk Space Toilets",
+        "category": "science",
+        "score": 27,
+        "num_comments": 3,
+        "author": "zdw",
+        "collected_at": "2026-04-14T22:57:37.195124"
+    },
+    {
+        "post_id": 47738343,
+        "title": "The Physics of GPS",
+        "category": "science",
+        "score": 163,
+        "num_comments": 35,
+        "author": "maouida",
+        "collected_at": "2026-04-14T23:00:13.185222"
+    },
+    {
+        "post_id": 47701769,
+        "title": "The Bra-and-Girdle Maker That Fashioned the Impossible for NASA",
+        "category": "science",
+        "score": 135,
+        "num_comments": 19,
+        "author": "sohkamyung",
+        "collected_at": "2026-04-14T23:01:31.487035"
+    },
+    {
+        "post_id": 47708818,
+        "title": "Native Instant Space Switching on macOS",
+        "category": "science",
+        "score": 642,
+        "num_comments": 326,
+        "author": "PaulHoule",
+        "collected_at": "2026-04-14T23:01:59.067757"
+    },
+    {
+        "post_id": 47739305,
+        "title": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
+        "category": "science",
+        "score": 180,
+        "num_comments": 77,
+        "author": "smokel",
+        "collected_at": "2026-04-14T23:02:36.928123"
+    },
+    {
+        "post_id": 47728323,
+        "title": "Relics of the Heroic Age of Manned Space Flight",
+        "category": "science",
+        "score": 20,
+        "num_comments": 1,
+        "author": "zdgeier",
+        "collected_at": "2026-04-14T23:02:56.209600"
+    },
+    {
+        "post_id": 47745543,
+        "title": "New metal with triple copper's heat conduction challenges fundamental physics",
+        "category": "science",
+        "score": 31,
+        "num_comments": 13,
+        "author": "thunderbong",
+        "collected_at": "2026-04-14T23:03:30.035539"
+    },
+    {
+        "post_id": 47706141,
+        "title": "Research-Driven Agents: When an agent reads before it codes",
+        "category": "science",
+        "score": 213,
+        "num_comments": 54,
+        "author": "hopechong",
+        "collected_at": "2026-04-14T23:04:08.825068"
+    },
+    {
+        "post_id": 47759281,
+        "title": "NASA Moon Base User's Guide [pdf]",
+        "category": "science",
+        "score": 6,
+        "num_comments": 1,
+        "author": "sethbannon",
+        "collected_at": "2026-04-14T23:04:20.586710"
+    },
+    {
+        "post_id": "dummy_science_9",
+        "title": "Dummy science story 9",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791040"
+    },
+    {
+        "post_id": "dummy_science_10",
+        "title": "Dummy science story 10",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791052"
+    },
+    {
+        "post_id": "dummy_science_11",
+        "title": "Dummy science story 11",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791055"
+    },
+    {
+        "post_id": "dummy_science_12",
+        "title": "Dummy science story 12",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791058"
+    },
+    {
+        "post_id": "dummy_science_13",
+        "title": "Dummy science story 13",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791060"
+    },
+    {
+        "post_id": "dummy_science_14",
+        "title": "Dummy science story 14",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791063"
+    },
+    {
+        "post_id": "dummy_science_15",
+        "title": "Dummy science story 15",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791065"
+    },
+    {
+        "post_id": "dummy_science_16",
+        "title": "Dummy science story 16",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791068"
+    },
+    {
+        "post_id": "dummy_science_17",
+        "title": "Dummy science story 17",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791070"
+    },
+    {
+        "post_id": "dummy_science_18",
+        "title": "Dummy science story 18",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791073"
+    },
+    {
+        "post_id": "dummy_science_19",
+        "title": "Dummy science story 19",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791075"
+    },
+    {
+        "post_id": "dummy_science_20",
+        "title": "Dummy science story 20",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791078"
+    },
+    {
+        "post_id": "dummy_science_21",
+        "title": "Dummy science story 21",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791080"
+    },
+    {
+        "post_id": "dummy_science_22",
+        "title": "Dummy science story 22",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791083"
+    },
+    {
+        "post_id": "dummy_science_23",
+        "title": "Dummy science story 23",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791085"
+    },
+    {
+        "post_id": "dummy_science_24",
+        "title": "Dummy science story 24",
+        "category": "science",
+        "score": null,
+        "num_comments": null,
+        "author": "system",
+        "collected_at": "2026-04-14T23:06:28.791087"
+    },
+    {
+        "post_id": 47714770,
+        "title": "Show HN: Run GUIs as Scripts",
+        "category": "entertainment",
+        "score": 17,
+        "num_comments": 6,
+        "author": "zero-st4rs",
+        "collected_at": "2026-04-14T23:06:58.087922"
+    },
+    {
+        "post_id": 47756569,
+        "title": "Show HN: Ithih\u0101sas \u2013 a character explorer for Hindu epics, built in a few hours",
+        "category": "entertainment",
+        "score": 165,
+        "num_comments": 44,
+        "author": "cvrajeesh",
+        "collected_at": "2026-04-14T23:08:04.543220"
+    },
+    {
+        "post_id": 47762851,
+        "title": "Show HN: A stateful UI runtime for reactive web apps in Go",
+        "category": "entertainment",
+        "score": 9,
+        "num_comments": 4,
+        "author": "derstruct",
+        "collected_at": "2026-04-14T23:09:17.176750"
     },
     {
         "post_id": 47742200,
         "title": "Show HN: boringBar \u2013 a taskbar-style dock replacement for macOS",
         "category": "entertainment",
-        "score": 508,
-        "num_comments": 292,
+        "score": 510,
+        "num_comments": 293,
         "author": "a-ve",
-        "collected_at": "2026-04-14 18:41:58"
+        "collected_at": "2026-04-14T23:09:52.070319"
+    },
+    {
+        "post_id": 47761892,
+        "title": "Show HN: Pushduck \u2013 S3 uploads that run on Cloudflare Workers, no AWS SDK",
+        "category": "entertainment",
+        "score": 10,
+        "num_comments": 5,
+        "author": "abhay_ramesh",
+        "collected_at": "2026-04-14T23:09:53.137251"
     },
     {
         "post_id": 47757552,
         "title": "Show HN: Continual Learning with .md",
         "category": "entertainment",
-        "score": 27,
-        "num_comments": 25,
+        "score": 32,
+        "num_comments": 28,
         "author": "wenhan_zhou",
-        "collected_at": "2026-04-14 18:42:06"
+        "collected_at": "2026-04-14T23:09:54.235332"
     },
     {
-        "post_id": 47741460,
-        "title": "How long-distance couples use digital games to facilitate intimacy (2025)",
+        "post_id": 47761442,
+        "title": "Show HN: Deflect One \u2013 command line dashboard for managing Linux servers via SSH",
         "category": "entertainment",
-        "score": 129,
-        "num_comments": 38,
-        "author": "radeeyate",
-        "collected_at": "2026-04-14 18:42:08"
-    },
-    {
-        "post_id": 47724352,
-        "title": "Filing the corners off my MacBooks",
-        "category": "entertainment",
-        "score": 1398,
-        "num_comments": 669,
-        "author": "normanvalentine",
-        "collected_at": "2026-04-14 18:42:13"
-    },
-    {
-        "post_id": 47741393,
-        "title": "Textbooks and Methods of Note-Taking in Early Modern Europe (2008)",
-        "category": "entertainment",
-        "score": 53,
-        "num_comments": 0,
-        "author": "mooreds",
-        "collected_at": "2026-04-14 18:42:25"
+        "score": 6,
+        "num_comments": 4,
+        "author": "whitemanv",
+        "collected_at": "2026-04-14T23:10:08.547099"
     },
     {
         "post_id": 47739174,
         "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
         "category": "entertainment",
         "score": 240,
-        "num_comments": 105,
+        "num_comments": 107,
         "author": "Rochus",
-        "collected_at": "2026-04-14 18:42:35"
+        "collected_at": "2026-04-14T23:10:38.246196"
     },
     {
-        "post_id": 47758453,
-        "title": "Your Favorite Movies Were CIA Propaganda [video]",
+        "post_id": 47727960,
+        "title": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
         "category": "entertainment",
-        "score": 32,
-        "num_comments": 3,
-        "author": "joe_mamba",
-        "collected_at": "2026-04-14 18:42:49"
+        "score": 497,
+        "num_comments": 272,
+        "author": "vidluther",
+        "collected_at": "2026-04-14T23:10:55.752831"
     },
     {
-        "post_id": 47698455,
-        "title": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
+        "post_id": 47749674,
+        "title": "Show HN: I built a social media management tool in 3 weeks with Claude and Codex",
         "category": "entertainment",
-        "score": 625,
-        "num_comments": 152,
-        "author": "iceberger2001",
-        "collected_at": "2026-04-14 18:43:01"
-    },
-    {
-        "post_id": 47698111,
-        "title": "Bevy game development tutorials and in-depth resources",
-        "category": "entertainment",
-        "score": 139,
-        "num_comments": 70,
-        "author": "GenericCanadian",
-        "collected_at": "2026-04-14 19:16:38"
-    },
-    {
-        "post_id": 47749295,
-        "title": "Show HN: Equirect \u2013 a Rust VR video player",
-        "category": "entertainment",
-        "score": 13,
-        "num_comments": 1,
-        "author": "greggman65",
-        "collected_at": "2026-04-14 19:16:45"
-    },
-    {
-        "post_id": 47747248,
-        "title": "Haunt, the 70s text adventure game, is now playable on a website",
-        "category": "entertainment",
-        "score": 82,
-        "num_comments": 26,
-        "author": "jscalo",
-        "collected_at": "2026-04-14 19:17:20"
-    },
-    {
-        "post_id": 47754329,
-        "title": "Show HN: Farchive \u2013 SQLite-backed history-preserving compressed archive",
-        "category": "entertainment",
-        "score": 5,
-        "num_comments": 0,
-        "author": "ekns",
-        "collected_at": "2026-04-14 19:17:24"
-    },
-    {
-        "post_id": 47733066,
-        "title": "New synthesis of astronomical measurements shows Hubble tension is real",
-        "category": "entertainment",
-        "score": 75,
-        "num_comments": 14,
-        "author": "anigbrowl",
-        "collected_at": "2026-04-14 19:17:33"
+        "score": 185,
+        "num_comments": 125,
+        "author": "JanSchu",
+        "collected_at": "2026-04-14T23:10:59.029278"
     },
     {
         "post_id": 47721997,
@@ -348,16 +996,25 @@
         "score": 155,
         "num_comments": 37,
         "author": "maouida",
-        "collected_at": "2026-04-14 19:17:38"
+        "collected_at": "2026-04-14T23:12:07.951582"
     },
     {
-        "post_id": 47758287,
-        "title": "Dear Master (an open letter from an early Facebook employee)",
+        "post_id": 47754329,
+        "title": "Show HN: Farchive \u2013 SQLite-backed history-preserving compressed archive",
         "category": "entertainment",
-        "score": 13,
-        "num_comments": 1,
-        "author": "plonkus",
-        "collected_at": "2026-04-14 19:18:14"
+        "score": 5,
+        "num_comments": 0,
+        "author": "ekns",
+        "collected_at": "2026-04-14T23:12:30.284198"
+    },
+    {
+        "post_id": 47705413,
+        "title": "Show HN: I built a Cargo-like build tool for C/C++",
+        "category": "entertainment",
+        "score": 176,
+        "num_comments": 169,
+        "author": "randerson_112",
+        "collected_at": "2026-04-14T23:12:54.535856"
     },
     {
         "post_id": 47722011,
@@ -366,16 +1023,16 @@
         "score": 91,
         "num_comments": 39,
         "author": "chrisecker",
-        "collected_at": "2026-04-14 19:18:22"
+        "collected_at": "2026-04-14T23:12:56.348517"
     },
     {
-        "post_id": 47705413,
-        "title": "Show HN: I built a Cargo-like build tool for C/C++",
+        "post_id": 47744683,
+        "title": "Show HN: Rekal \u2013 Long-term memory for LLMs in a single SQLite file",
         "category": "entertainment",
-        "score": 176,
-        "num_comments": 168,
-        "author": "randerson_112",
-        "collected_at": "2026-04-14 19:18:27"
+        "score": 8,
+        "num_comments": 9,
+        "author": "jeeybee",
+        "collected_at": "2026-04-14T23:12:57.317068"
     },
     {
         "post_id": 47745300,
@@ -384,16 +1041,7 @@
         "score": 9,
         "num_comments": 5,
         "author": "rpatni",
-        "collected_at": "2026-04-14 19:18:31"
-    },
-    {
-        "post_id": 47702647,
-        "title": "Launch HN: Relvy (YC F24) \u2013 On-call runbooks, automated",
-        "category": "entertainment",
-        "score": 48,
-        "num_comments": 25,
-        "author": "behat",
-        "collected_at": "2026-04-14 19:18:42"
+        "collected_at": "2026-04-14T23:13:18.804676"
     },
     {
         "post_id": 47721255,
@@ -402,16 +1050,7 @@
         "score": 71,
         "num_comments": 39,
         "author": "zachdive",
-        "collected_at": "2026-04-14 19:18:49"
-    },
-    {
-        "post_id": 47699470,
-        "title": "The Life and Death of the Book Review",
-        "category": "entertainment",
-        "score": 30,
-        "num_comments": 7,
-        "author": "lermontov",
-        "collected_at": "2026-04-14 19:19:01"
+        "collected_at": "2026-04-14T23:13:20.687742"
     },
     {
         "post_id": 47730522,
@@ -420,708 +1059,69 @@
         "score": 40,
         "num_comments": 21,
         "author": "olleeolleeollee",
-        "collected_at": "2026-04-14 19:19:02"
+        "collected_at": "2026-04-14T23:13:42.257494"
     },
     {
-        "post_id": 10022,
-        "title": "Dummy Title23forentertainment",
+        "post_id": 47699470,
+        "title": "The Life and Death of the Book Review",
         "category": "entertainment",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:54"
+        "score": 30,
+        "num_comments": 7,
+        "author": "lermontov",
+        "collected_at": "2026-04-14T23:13:43.383745"
     },
     {
-        "post_id": 10023,
-        "title": "Dummy Title24forentertainment",
+        "post_id": 47715339,
+        "title": "Show HN: Keeper \u2013 embedded secret store for Go (help me break it)",
         "category": "entertainment",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:54"
+        "score": 63,
+        "num_comments": 33,
+        "author": "babawere",
+        "collected_at": "2026-04-14T23:14:17.587407"
     },
     {
-        "post_id": 10024,
-        "title": "Dummy Title25forentertainment",
+        "post_id": 47736071,
+        "title": "The Universal Standard Book Number",
         "category": "entertainment",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:54"
-    },
-    {
-        "post_id": 10000,
-        "title": "Dummy Title1forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10001,
-        "title": "Dummy Title2forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10002,
-        "title": "Dummy Title3forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10003,
-        "title": "Dummy Title4forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10004,
-        "title": "Dummy Title5forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10005,
-        "title": "Dummy Title6forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10006,
-        "title": "Dummy Title7forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10007,
-        "title": "Dummy Title8forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10008,
-        "title": "Dummy Title9forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10009,
-        "title": "Dummy Title10forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10010,
-        "title": "Dummy Title11forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10011,
-        "title": "Dummy Title12forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10012,
-        "title": "Dummy Title13forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10013,
-        "title": "Dummy Title14forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10014,
-        "title": "Dummy Title15forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10015,
-        "title": "Dummy Title16forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10016,
-        "title": "Dummy Title17forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10017,
-        "title": "Dummy Title18forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10018,
-        "title": "Dummy Title19forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10019,
-        "title": "Dummy Title20forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10020,
-        "title": "Dummy Title21forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10021,
-        "title": "Dummy Title22forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10022,
-        "title": "Dummy Title23forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10023,
-        "title": "Dummy Title24forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10024,
-        "title": "Dummy Title25forworldnews",
-        "category": "worldnews",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:56"
-    },
-    {
-        "post_id": 10000,
-        "title": "Dummy Title1forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10001,
-        "title": "Dummy Title2forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10002,
-        "title": "Dummy Title3forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10003,
-        "title": "Dummy Title4forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10004,
-        "title": "Dummy Title5forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10005,
-        "title": "Dummy Title6forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10006,
-        "title": "Dummy Title7forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10007,
-        "title": "Dummy Title8forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10008,
-        "title": "Dummy Title9forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10009,
-        "title": "Dummy Title10forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10010,
-        "title": "Dummy Title11forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10011,
-        "title": "Dummy Title12forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10012,
-        "title": "Dummy Title13forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10013,
-        "title": "Dummy Title14forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10014,
-        "title": "Dummy Title15forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10015,
-        "title": "Dummy Title16forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10016,
-        "title": "Dummy Title17forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10017,
-        "title": "Dummy Title18forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10018,
-        "title": "Dummy Title19forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10019,
-        "title": "Dummy Title20forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10020,
-        "title": "Dummy Title21forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10021,
-        "title": "Dummy Title22forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10022,
-        "title": "Dummy Title23forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10023,
-        "title": "Dummy Title24forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10024,
-        "title": "Dummy Title25forscience",
-        "category": "science",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:32:58"
-    },
-    {
-        "post_id": 10000,
-        "title": "Dummy Title1forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10001,
-        "title": "Dummy Title2forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10002,
-        "title": "Dummy Title3forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10003,
-        "title": "Dummy Title4forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10004,
-        "title": "Dummy Title5forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10005,
-        "title": "Dummy Title6forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10006,
-        "title": "Dummy Title7forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10007,
-        "title": "Dummy Title8forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10008,
-        "title": "Dummy Title9forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10009,
-        "title": "Dummy Title10forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10010,
-        "title": "Dummy Title11forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10011,
-        "title": "Dummy Title12forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10012,
-        "title": "Dummy Title13forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10013,
-        "title": "Dummy Title14forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10014,
-        "title": "Dummy Title15forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10015,
-        "title": "Dummy Title16forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10016,
-        "title": "Dummy Title17forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10017,
-        "title": "Dummy Title18forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10018,
-        "title": "Dummy Title19forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10019,
-        "title": "Dummy Title20forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10020,
-        "title": "Dummy Title21forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10021,
-        "title": "Dummy Title22forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10022,
-        "title": "Dummy Title23forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10023,
-        "title": "Dummy Title24forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
-    },
-    {
-        "post_id": 10024,
-        "title": "Dummy Title25forsports",
-        "category": "sports",
-        "score": null,
-        "num_comments": null,
-        "author": "unknown",
-        "collected_at": "2026-04-14 19:38:57"
+        "score": 13,
+        "num_comments": 4,
+        "author": "novalis78",
+        "collected_at": "2026-04-14T23:14:35.503657"
+    },
+    {
+        "post_id": 47689165,
+        "title": "Show HN: I pipe free sports streams into Jellyfin \u2013 no ads, just HLS",
+        "category": "entertainment",
+        "score": 120,
+        "num_comments": 36,
+        "author": "pruz",
+        "collected_at": "2026-04-14T23:14:38.273662"
+    },
+    {
+        "post_id": 47694036,
+        "title": "Show HN: Orange Juice \u2013 Small UX improvements that make HN easier to read",
+        "category": "entertainment",
+        "score": 147,
+        "num_comments": 158,
+        "author": "latchkey",
+        "collected_at": "2026-04-14T23:14:49.102938"
+    },
+    {
+        "post_id": 47690797,
+        "title": "Show HN: Go-Bt: Minimalist Behavior Trees for Go",
+        "category": "entertainment",
+        "score": 62,
+        "num_comments": 12,
+        "author": "rvitorper",
+        "collected_at": "2026-04-14T23:15:05.509973"
+    },
+    {
+        "post_id": 47696562,
+        "title": "Show HN: Is Hormuz open yet?",
+        "category": "entertainment",
+        "score": 483,
+        "num_comments": 209,
+        "author": "anonfunction",
+        "collected_at": "2026-04-14T23:15:19.656748"
     }
 ]
