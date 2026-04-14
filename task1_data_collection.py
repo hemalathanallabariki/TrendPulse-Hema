@@ -27,7 +27,7 @@ CATEGORY_MAP={
 #get top story ids from hackernews
 def get_top_ids():
     try:
-        res=requests.get(f"{BASE}/topstories.json",eaders=HEADERS)
+        res=requests.get(f"{BASE}/topstories.json",headers=HEADERS)
         res.raise_for_status()
         return res.json()[:MAX_FETCH]
     except Exception as err:
@@ -151,7 +151,7 @@ def save_output(data):
     with open(fname,"w",encoding="utf-8") as f:
         json.dump(data,f,indent=4)
 
-    print(f"\nCollected {len(data)} stories. aved to {fname}")
+    print(f"\nCollected {len(data)} stories.Saved to {fname}")
 
 
 #----------- EXECUTION ----------- #
