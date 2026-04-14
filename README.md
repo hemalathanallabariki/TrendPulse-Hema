@@ -1,4 +1,4 @@
-# 📊 TrendPulse — What’s Actually Trending Right Now
+#  TrendPulse — What’s Actually Trending Right Now
 
 TrendPulse is a data pipeline project that collects trending stories from Hacker News, cleans the data, performs analysis, and visualizes insights using Python.
 
@@ -128,7 +128,7 @@ Some categories may include dummy data if sufficient real stories are not availa
 ## 👩‍💻 Author
 
 **Hema Latha Nallabariki**
-Data Science Student
+(https://github.com/hemalathanallabariki)
 
 ---
 
