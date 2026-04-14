@@ -4,149 +4,137 @@ import json
 import os
 from datetime import datetime
 
-#base url for hackernews api
-BASE_URL="https://hacker-news.firebaseio.com/v0"
-HEADERS={"User-Agent": "TrendPulse/1.0"}
+# ----------- CONFIG ----------- #
+BASE ="https://hacker-news.firebaseio.com/v0"
+HEADERS = {"User-Agent": "TrendPulse/1.0"}
 
-#limits for collection
-MAX_PER_CATEGORY=25
-TOTAL_IDS_TO_FETCH=500
+LIMIT_PER_CAT = 25
+MAX_FETCH = 500
 
-#keywords for each category
-CATEGORIES={
-    "technology":["ai","software","tech","code","computer","data","cloud","api","gpu","llm"],
-    "worldnews":["war","government","country","president","election","climate","attack","global"],
-    "sports":["nfl","nba","fifa","sport","team","player","league","championship"],
-    "science":["research","study","space","physics","biology","discovery","nasa","genome"],
-    "entertainment":["movie","film","music","netflix","book","show","award","streaming"]
+CATEGORY_MAP = {
+    "technology": ["ai","software","tech","code","computer","data","cloud","api","gpu","llm"],
+    "entertainment": ["movie","film","music","netflix","game","book","show","award","streaming"],
+    "worldnews": ["war","government","country","president","election","climate","attack","global"],
+    "science": ["research","study","space","physics","biology","discovery","nasa","genome"],
+    "sports": ["nfl","nba","fifa","sport","game","team","player","league","championship"]
 }
 
-#getting top story ids
-def fetch_top_story_ids():
+
+# ----------- FETCHING ----------- #
+def get_top_ids():
     try:
-        url=f"{BASE_URL}/topstories.json"
-        res=requests.get(url, headers=HEADERS)
+        res = requests.get(f"{BASE}/topstories.json", headers=HEADERS)
         res.raise_for_status()
-        return res.json()[:TOTAL_IDS_TO_FETCH]
-    except:
-        return[]
+        return res.json()[:MAX_FETCH]
+    except Exception as err:
+        print(f"Top stories fetch failed: {err}")
+        return []
 
-# fetching each story
-def fetch_story(story_id):
+
+def get_story_data(sid):
     try:
-        url=f"{BASE_URL}/item/{story_id}.json"
-        res=requests.get(url, headers=HEADERS, timeout=5)
-        if res.status_code!=200:
-            return None
+        res = requests.get(f"{BASE}/item/{sid}.json", headers=HEADERS)
+        res.raise_for_status()
         return res.json()
-    except:
+    except Exception:
+        print(f"Story fetch failed: {sid}")
         return None
 
-#checking title and assigning category
-def classify_story(title):
-    if not title:
+
+# ----------- CLASSIFICATION ----------- #
+def detect_category(text):
+    if not text:
         return None
 
-    title=title.lower()
-
-    for category, keywords in CATEGORIES.items():
-        if any(k in title for k in keywords):
-            return category
-
+    t = text.lower()
+    for cat in CATEGORY_MAP:
+        if any(word in t for word in CATEGORY_MAP[cat]):
+            return cat
     return None
 
 
-# -------- main part -------- #
+# ----------- DATA PROCESSING ----------- #
+def build_record(story, category):
+    return {
+        "post_id": story.get("id"),
+        "title": story.get("title", ""),
+        "category": category,
+        "score": story.get("score", 0),
+        "num_comments": story.get("descendants", 0),
+        "author": story.get("by", "unknown"),
+        "collected_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
 
-def main():
 
-    story_ids=fetch_top_story_ids()
+def generate_dummy(category, index):
+    return {
+        "post_id": 10000 + index,
+        "title": f"Dummy Title {index+1} for {category}",
+        "category": category,
+        "score": None,
+        "num_comments": None,
+        "author": "unknown",
+        "collected_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    }
 
-    categorized_data={cat: [] for cat in CATEGORIES}
-    collected_data=[]
 
-    for idx, story_id in enumerate(story_ids):
+# ----------- MAIN PIPELINE ----------- #
+def run_pipeline():
+    ids = get_top_ids()
 
-        story=fetch_story(story_id)
-        if not story:
-            continue
+    categorized = {k: [] for k in CATEGORY_MAP}
+    all_data = []
 
-        #ignoring non-story items
-        if story.get("type")!="story":
-            continue
+    for cat in CATEGORY_MAP.keys():
+        print(f"\nProcessing category: {cat}")
 
-        title=story.get("title")
-        if not title:
-            continue
+        count = 0
+        idx = 0
 
-        category=classify_story(title)
+        while idx < len(ids) and count < LIMIT_PER_CAT:
+            sid = ids[idx]
+            idx += 1
 
-        #skipping if no category match
-        if not category:
-            continue
+            print(f"Fetching story {sid}")
+            story = get_story_data(sid)
 
-        #skipping if category already filled
-        if len(categorized_data[category])>=MAX_PER_CATEGORY:
-            continue
+            if not story:
+                continue
 
-        data={
-            "post_id": story.get("id"),
-            "title": title,
-            "category": category,
-            "score": story.get("score",0),
-            "num_comments": story.get("descendants",0),
-            "author": story.get("by","unknown"),
-            "collected_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        }
+            title = story.get("title", "")
+            assigned = detect_category(title)
 
-        categorized_data[category].append(data)
-        collected_data.append(data)
+            if assigned == cat:
+                record = build_record(story, cat)
+                categorized[cat].append(record)
+                all_data.append(record)
+                count += 1
 
-        print("added:",category)
+        # Fill missing with dummy entries
+        while len(categorized[cat]) < LIMIT_PER_CAT:
+            dummy = generate_dummy(cat, len(categorized[cat]))
+            categorized[cat].append(dummy)
+            all_data.append(dummy)
 
-        #stop when all categories are full
-        if all(len(categorized_data[c])>=MAX_PER_CATEGORY for c in CATEGORIES):
-            break
-
-        #small progress update
-        if (idx+1)%20==0:
-            print("processed",idx + 1,"stories...")
-
-        #small delay
-        if (idx+1)%50==0:
-            time.sleep(1)
-
-    print("\nfilling remaining with dummy data...\n")
-
-    #filling remaining slots with dummy
-    for category in CATEGORIES:
-        while len(categorized_data[category])<MAX_PER_CATEGORY:
-            i=len(categorized_data[category])
-
-            dummy={
-                "post_id":100000+len(collected_data),
-                "title":f"Dummy title {i+1}",
-                "category":category,
-                "score":None,
-                "num_comments":None,
-                "author":"unknown",
-                "collected_at":datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            }
-            
-            categorized_data[category].append(dummy)
-            collected_data.append(dummy)
+        print(f"Completed category '{cat}' with {len(categorized[cat])} stories.")
+        print("Sleeping for 2 seconds...")
         time.sleep(2)
-    #saving file
-    os.makedirs("data",exist_ok=True)
 
-    filename=f"data/trends_{datetime.now().strftime('%Y%m%d')}.json"
-
-    with open(filename,"w",encoding="utf-8") as f:
-        json.dump(collected_data,f,indent=4)
-
-    print("\ndone. total collected:",len(collected_data))
-    print("file saved at:",filename)
+    return all_data
 
 
-if __name__=="__main__":
-    main()
+# ----------- SAVE OUTPUT ----------- #
+def save_output(data):
+    os.makedirs("data", exist_ok=True)
+    fname = f"data/trends_{datetime.now().strftime('%Y%m%d')}.json"
+
+    with open(fname, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4)
+
+    print(f"\nCollected {len(data)} stories. Saved to {fname}")
+
+
+# ----------- EXECUTION ----------- #
+if __name__ == "__main__":
+    result = run_pipeline()
+    save_output(result)
